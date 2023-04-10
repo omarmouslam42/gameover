@@ -1,0 +1,90 @@
+body {
+  background-color: #272B30;
+  color: white;
+ }
+ nav{
+   background-color: #272B30;
+ }
+ .gameover-text{
+   color: rgba(255, 255, 255, 0.645);
+ }
+ .navbar-logo{
+   width: 7%;
+   filter: drop-shadow(8px,8px.4px);
+   -webkit-filter: drop-shadow(0px 0px 4px rgb(75, 75, 233));
+ }
+ .log-content{
+   background-color: #32383E;
+ }
+ p{
+   font-size: 14px;
+ }
+ .gameover-img img{
+   height: 490px;
+   
+ }
+ .parent-gameover-img{
+   right: 12px;
+ }
+ .home-background{
+   background-color: #1C1E22;
+   border-bottom:  black;
+ }
+ .game{
+   background-color: #32383E;
+   cursor: pointer;
+   transition: 0.3s all;
+   -webkit-transition: 0.3s all;
+   -moz-transition: 0.3s all;
+   -ms-transition: 0.3s all;
+   -o-transition: 0.3s all;
+   
+ }
+ .game:hover{
+   transform: scale(103%);
+   -webkit-transform: scale(103%);
+   -moz-transform: scale(103%);
+   -ms-transform: scale(103%);
+   -o-transform: scale(103%);
+ }
+ a{
+   text-decoration: none;
+ }
+ .back{
+  background-color: rgba(0, 0, 0, 0.674) ;
+ }
+
+
+ .reload-background{
+  background-color: #272B30;
+  
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @media screen and (max-width:990px) {
+   .parent-gameover-img{
+     display: none;
+   }
+   .game-over-content{
+     width: 100%;
+   }
+ }
+ 
+ 
+ @media screen and (max-width:500px) {
+ .navbar-logo{
+   width: 60px;
+ }
+ }
+ @media screen and (min-width:500px) and (max-width:992px) {
+ .navbar-logo{
+   width: 80px;
+ }
+ }
